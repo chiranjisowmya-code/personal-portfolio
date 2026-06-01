@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">MyPortfolio</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Home Section -->
+<section id="home" class="vh-100 d-flex align-items-center bg-light text-center">
+    <div class="container">
+        <h1 class="display-4 fw-bold">Hi, I'm Your Name</h1>
+        <p class="lead">Aspiring Developer | Problem Solver | Tech Enthusiast</p>
+        <a href="#projects" class="btn btn-primary mt-3">View My Work</a>
+    </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills" class="py-5">
+    <div class="container text-center">
+        <h2 class="mb-4">My Skills</h2>
+        <div class="row">
+            <div class="col-md-3 col-6 mb-4">
+                <div class="card p-3 shadow-sm">
+                    <h5>HTML</h5>
+                </div>
+            </div>
+            <div class="col-md-3 col-6 mb-4">
+                <div class="card p-3 shadow-sm">
+                    <h5>CSS</h5>
+                </div>
+            </div>
+            <div class="col-md-3 col-6 mb-4">
+                <div class="card p-3 shadow-sm">
+                    <h5>JavaScript</h5>
+                </div>
+            </div>
+            <div class="col-md-3 col-6 mb-4">
+                <div class="card p-3 shadow-sm">
+                    <h5>Bootstrap</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="py-5 bg-light">
+    <div class="container text-center">
+        <h2 class="mb-4">My Projects</h2>
+        <div class="row">
+
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 1</h5>
+                        <p class="card-text">Short description of your project.</p>
+                        <a href="#" class="btn btn-outline-primary btn-sm">View</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 2</h5>
+                        <p class="card-text">Short description of your project.</p>
+                        <a href="#" class="btn btn-outline-primary btn-sm">View</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 3</h5>
+                        <p class="card-text">Short description of your project.</p>
+                        <a href="#" class="btn btn-outline-primary btn-sm">View</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="py-5">
+    <div class="container text-center">
+        <h2 class="mb-4">Contact Me</h2>
+        <form class="col-md-6 mx-auto">
+            <input type="text" class="form-control mb-3" placeholder="Your Name">
+            <input type="email" class="form-control mb-3" placeholder="Your Email">
+            <textarea class="form-control mb-3" rows="4" placeholder="Your Message"></textarea>
+            <button class="btn btn-dark">Send Message</button>
+        </form>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3">
+    © 2026 Your Name | All Rights Reserved
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
